@@ -1,9 +1,86 @@
+/*Universal Styles - START*/
+
 html {
     font-size: 18px;
+    font-family: Helvetica;
     line-height: 1.4;
 }
 
 .container {
     width: 960px;
+    margin: 0 auto;
 }
 
+h2, h4 {
+    font-weight: bold;
+}
+
+/*Universal Styles - END*/
+
+/*Header - START*/
+
+header {
+    background-color: cadetblue;
+    padding-top: 1rem;
+    display: flex;
+}
+
+.company .container {
+    display: flex;
+    align-items: center;
+
+}
+
+.brand img {
+    height: 1.5rem;
+    padding-left: 2rem;
+}
+
+.company,
+nav {
+    color: white;
+}
+
+.company {
+    padding-left: 1rem;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 2rem;
+}
+
+
+
+/*Header - END*/
+
+/*Banner - START*/
+
+.banner {
+    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png);
+    background-position: center;
+    background-size: cover;
+    height: 30rem;
+}
+
+.headline {
+    background-color: white;
+    width: 35rem;
+}
+
+h2 {
+    font-size: 2rem;
+    line-height: 1.2;
+    padding: 1.5rem 5rem;
+}
+
+.right {
+    width: 1032px;
+    margin: 0 auto;
+}
+
+
+/*Banner - END*/
