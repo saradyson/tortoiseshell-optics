@@ -25,6 +25,10 @@ h3 {
     color: white;
 }
 
+body {
+    margin: 0;
+}
+
 /*Universal Styles - END*/
 
 /*Header - START*/
@@ -53,8 +57,7 @@ ul {
 
 ul li {
     display: inline;
-    padding: 0 1rem;
-    
+    padding: 0 1rem; 
 }
 
 /*Header - END*/
@@ -66,6 +69,7 @@ ul li {
     background-position: center;
     background-size: cover;
     height: 30rem;
+    padding-top: 1rem;
 }
 
 .headline {
@@ -134,7 +138,6 @@ section {
 h3 {
     padding: 0.5rem 1.25rem;
 }
-
 
 
 /*Main Content - END*/
