@@ -75,7 +75,6 @@ ul li {
 
 .headline {
     background-color: white;
-    width: 35rem;
     padding: 0.75rem 5rem;
     display: inline-block;
     margin-top: 10rem;
@@ -121,7 +120,7 @@ section {
     width: 5rem;
 }
 
-#paper {
+#paper img {
     width: 3.5rem;
 }
 
@@ -147,8 +146,6 @@ h3 {
 
 footer {
     background-color: azure;
-    display: flex;
-    align-items: center;
     padding: 4rem 2rem;
 }
 
