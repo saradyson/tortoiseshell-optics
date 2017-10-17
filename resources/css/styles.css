@@ -155,4 +155,9 @@ footer img {
     margin-right: 1rem;
 }
 
+.copyright {
+    display: flex;  
+    align-items: center;
+}
+
 /*Footer - END*/
