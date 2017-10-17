@@ -8,11 +8,21 @@ html {
 
 .container {
     width: 960px;
-    margin: 0 auto;
+    margin: auto;
 }
 
 h2, h4 {
     font-weight: bold;
+}
+
+.flex {
+    display: flex;
+}
+
+header,
+h3 {
+    background-color: cadetblue;
+    color: white;
 }
 
 /*Universal Styles - END*/
@@ -20,40 +30,32 @@ h2, h4 {
 /*Header - START*/
 
 header {
-    background-color: cadetblue;
     padding-top: 1rem;
     display: flex;
 }
 
-.company .container {
-    display: flex;
-    align-items: center;
-
-}
-
 .brand img {
     height: 1.5rem;
-    padding-left: 2rem;
+    margin-left: 2rem;
+    margin-right: 1rem;
 }
 
-.company,
 nav {
-    color: white;
-}
-
-.company {
-    padding-left: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 ul {
     list-style: none;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding: 0 2rem;
+    margin-right: 1rem;
 }
 
-
+ul li {
+    display: inline;
+    padding: 0 1rem;
+    
+}
 
 /*Header - END*/
 
@@ -69,18 +71,87 @@ ul {
 .headline {
     background-color: white;
     width: 35rem;
+    padding: 0.75rem 5rem;
+    display: inline-block;
+    margin-top: 10rem;
+    margin-right: -2rem;
+    line-height: 2.4rem;
+}
+
+.right {
+    justify-content: flex-end;
 }
 
 h2 {
     font-size: 2rem;
-    line-height: 1.2;
-    padding: 1.5rem 5rem;
-}
-
-.right {
-    width: 1032px;
-    margin: 0 auto;
 }
 
 
 /*Banner - END*/
+
+/*Main Content - START*/
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+.features {
+    height: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 5rem;
+    margin: 3rem;
+}
+
+.offer {
+    display: flex;
+}
+
+.offer img {
+    margin-bottom: 1rem;
+    width: 5rem;
+}
+
+#paper {
+    width: 3.5rem;
+}
+
+.business-info {
+    display: flex;
+    justify-content: center;
+}
+
+.info {
+    width: 35%;
+    margin-right: 5%;
+    margin-bottom: 4rem;
+}
+
+h3 {
+    padding: 0.5rem 1.25rem;
+}
+
+
+
+/*Main Content - END*/
+
+/*Footer - START*/
+
+footer {
+    background-color: azure;
+    display: flex;
+    align-items: center;
+    padding: 4rem 2rem;
+}
+
+footer img {
+    height: 1.5rem;
+    margin-left: 2rem;
+    margin-right: 1rem;
+}
+
+/*Footer - END*/
